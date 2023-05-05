@@ -1,0 +1,529 @@
+@media (max-width: 1350px) {
+    .offer {
+        &__image {
+            margin: 0 50px;
+        }
+    }
+
+    .footer {
+        font-size: 14px;
+
+        &__inner-item-text {
+            max-width: 280px;
+        }
+    }   
+}
+
+@media (max-width: 1300px) {
+    .benefits {
+        padding-bottom: 50px;       
+
+        &__content {
+            background-size: 380px;
+            background-position: 50% 40%;
+        }
+
+        &__item-text {
+            max-width: 280px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .collage {
+        &__item-title {
+            margin-bottom: 20px;
+    
+            font-size: 28px;
+        }
+
+        &__item-description {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 1130px) {
+    .header__nav-item {
+        margin-right: 25px;
+    }
+
+    .home {
+        &__header {
+            margin-bottom: 30px;
+            font-size: 54px;
+        }
+
+        &__inner-text {
+            margin-bottom: 35px;
+            font-size: 18px;
+        }
+
+        &__btn {
+            padding: 18px 85px;
+            font-size: 12px;
+        }
+    }
+
+    .tradition {
+        &__item-image {
+            margin-bottom: 16px;
+        }
+    }
+
+    .benefits {
+        &__item-number {
+            height: 50px;
+            width: 50px;
+            padding: 12px;
+
+            font-size: 18px;
+        }
+
+        &__item-inner {
+            margin: 0 15px;
+        }
+
+        &__item-title {
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        &__item-text {
+            max-width: 220px;            
+            font-size: 14px;
+        }
+    }
+
+    .offer {
+        padding: 50px;
+        &__image {
+            margin-left: 0;
+            margin-bottom: 50px;
+            height: 450px;
+            width: auto;
+        }
+
+        &__text {
+            margin-bottom: 32px;
+        }
+    }
+
+    .footer {
+        padding: 70px 50px 40px;
+
+        &__inner {
+            margin: 0 -15px;
+            flex-wrap: wrap;
+        }
+
+        &__inner-item {
+            margin: 0 15px;
+        }
+
+        &__inner-item-subscription {
+            margin: 0 auto;
+            padding: 10px 0 0;
+
+        }
+    }
+}
+
+@media (max-width: 1050px) {
+    .menu {
+        padding-left: 50px;
+        padding-right: 50px;
+
+        &__content {
+            margin: 0 -20px;
+        }
+
+        &__list {
+            margin: 0 20px;
+        }
+
+        &__item-img {
+            height: 120px;
+            width: auto;
+        }
+
+        &__item-header {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .benefits {
+        &__header-title {
+            margin-bottom: 20px;
+            font-size: 28px;
+
+            &::after {
+                margin-top: 10px;
+            }
+        }
+
+        &__content {
+            background-image: url('../images/main/benefits/benefits-bg-splash.jpg');
+        }
+    }
+}
+
+@media (max-width: 900px) {
+
+    .header {
+        &__nav-item {
+            margin-right: 10px;
+            font-size: 18px;
+        }
+        
+        &__nav-btn {
+            margin-left: 15px;
+        }
+    }
+
+    .home {
+        &__inner {
+            justify-content: center;
+        }
+
+        &__inner-content {
+            max-width: 600px;
+        }
+
+        &__inner-text {
+            margin-bottom: 24px;
+        }
+    }
+
+    .tradition {
+        padding-bottom: 65px;
+
+        &__header {
+            max-width: 500px;
+        }
+        &__item-list {
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            padding-bottom: 50px;
+        }
+
+        &__item-title {
+            font-size: 18px;
+        }
+    }
+
+    .collage {
+        &__item-title {
+            margin-bottom: 10px;
+    
+            font-size: 20px;
+        }
+
+        &__item-description {
+            font-size: 14px;
+        }
+    }
+
+    .offer {
+        &__image {
+            height: 350px;
+            width: auto;
+        }
+
+        &__text {
+            font-size: 14px;
+        }
+
+        &__signature {
+            font-size: 48px;
+        }
+    }
+
+    .footer {
+        &__logo {
+            width: 130px;
+            height: auto;
+        }
+
+        &__inner-item-logo {
+            max-width: 200px;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .header {
+        &__nav-links-wrapper {
+            display: none;
+        }
+
+        &__nav-btn-menu {
+            display: block;
+        }
+    }
+
+    .menu {
+        &__content {
+            flex-wrap: wrap;
+        }
+
+        &__list-item {
+            margin-bottom: 50px;
+            max-width: 500px;
+        }
+    }
+
+    .offer {
+        &__image {
+            height: 250px;
+            width: auto;
+        }
+
+        &__title {
+            font-size: 28px;
+
+            &::after {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .footer {
+        &__logo {
+            width: 130px;
+            height: auto;
+        }
+
+        &__socials-item {
+            margin-top: 0;
+        }
+
+        &__call-to-action {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .offer {
+        &__image {
+            display: none;
+        }
+    }
+
+    .footer {
+        &__inner-nav {
+            display: none;
+        }
+
+        &__inner-item-subscription {
+            display: none;
+        }
+    }
+
+    .tradition {
+        &__item-list {
+            margin: 0;
+        }
+
+        &__item {
+            max-width: 250px;
+            padding: 0 0 50px;
+        }
+    }
+
+    .collage {
+        &__item-title {
+            margin-bottom: 10px;
+    
+            font-size: 18px;
+        }
+
+        &__item-description {
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .tradition {
+        &__item {
+            max-width: 200px;
+        }
+    }
+
+    .benefits {
+        &__header-text {
+            font-size: 14px;
+        }
+
+        &__content {
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            padding-bottom: 50px;
+            text-align: left !important; 
+        }
+
+        &__item-number--order-low {
+            order: -1;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .collage {
+        &__item-title {
+            margin-bottom: 0;
+            font-size: 12px;
+        }
+
+        &__item-description {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .tradition {
+        &__item-list {
+            justify-content: center;
+        }
+
+        &__item {
+            max-width: 300px;
+        }
+
+        &__item-image {
+            margin-bottom: 0;
+        }
+    }
+
+    .benefits {
+        &__header-title {
+            margin: 0 auto 20px;
+            max-width: 250px;
+            // font-size: 24px;
+
+            &::after {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .footer {
+        padding-top: 50px;
+
+        &__inner {
+            padding-bottom: 25px;
+
+            flex-direction: column;
+        }
+
+        &__inner-item {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 470px) {
+    .header {
+        &__logo {
+            width: 100px;
+            height: auto;
+        }
+    }
+
+    .home {
+        &__header {
+            font-size: 36px;
+
+            &::after {
+                width: 140px;
+            }
+        }
+
+        &__inner-text {
+            font-size: 14px;
+        }
+
+        &__btn {
+            padding: 16px 52px;
+        }
+    }
+
+    .tradition {
+        &__header-title {
+            margin-bottom: 20px;
+            font-size: 28px;
+
+            &::after {       
+                margin: 10px auto 0; 
+            }
+        }
+
+        &__header-content {
+            font-size: 14px;
+        }
+    }
+
+    .menu {
+        padding-top: 65px;
+        &__header-title {
+            margin-bottom: 20px;
+            font-size: 28px;
+
+            &::after {       
+                margin: 10px auto 0; 
+            }
+        }
+
+        &__header-text {
+            font-size: 14px;
+        }
+
+        &__list-item {
+            margin-bottom: 30px;
+        }
+
+        &__item-img {
+            height: 80px;
+            width: auto;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .benefits {
+        &__header-title {
+            font-size: 24px;
+        }  
+    }
+
+    .menu {
+        padding: 65px 30px 46px;
+
+        &__header {
+            padding-bottom: 75px;
+        }
+    }
+
+    .offer {
+        &__title {
+            font-size: 22px;
+        }
+
+        &__text {
+            font-size: 12px;
+        }
+
+        &__signature {
+            font-size: 36px;
+        }
+    }
+}

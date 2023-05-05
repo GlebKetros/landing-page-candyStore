@@ -12,15 +12,18 @@
     <div class="home">
         <header class="header">
             <div class="header__inner">
-                <img src="images/haeder/logo.png" alt="" class="header__logo">
+                <img class="header__logo" src="images/haeder/logo.png" alt="">
 
                 <nav class="header__nav">
-                    <a class="header__nav-item" href="#">Home</a>
-                    <a class="header__nav-item" href="#">Pages</a>
-                    <a class="header__nav-item" href="#">Portfolio</a>
-                    <a class="header__nav-item" href="#">Blog</a>
-                    <a class="header__nav-item" href="#">Shop</a>
-                    <a class="header__nav-item" href="#">Elements</a>
+                    <div class="header__nav-links-wrapper">
+                        <a class="header__nav-item" href="#">Home</a>
+                        <a class="header__nav-item" href="#">Pages</a>
+                        <a class="header__nav-item" href="#">Portfolio</a>
+                        <a class="header__nav-item" href="#">Blog</a>
+                        <a class="header__nav-item" href="#">Shop</a>
+                        <a class="header__nav-item" href="#">Elements</a>                        
+                    </div>
+
 
                     <div class="header__nav-buttons-wrapper">
                         <button class="header__nav-btn">
@@ -31,7 +34,7 @@
                             <img class="header__nav-icon" src="images/haeder/shopping-cart.png" alt="">
                         </button>
 
-                        <button class="header__nav-btn">
+                        <button class="header__nav-btn header__nav-btn-menu">
                             <img class="header__nav-icon" src="images/haeder/menu.png" alt="">
                         </button>
                     </div>
@@ -124,7 +127,7 @@
                                 <h3 class="benefits__item-title">Quality Certificates</h3>
                                 <p class="benefits__item-text">Lorem ipsum dolor sit amet consectetur adipiscing elit metus pellentesque, blandit per eu aliquet nascetur.</p>                               
                             </div>
-                            <p class="benefits__item-number">04</p> 
+                            <p class="benefits__item-number benefits__item-number--order-low">04</p> 
                         </div>
 
                         <div class="benefits__item">
@@ -132,7 +135,7 @@
                                 <h3 class="benefits__item-title">Many points of sale</h3>
                                 <p class="benefits__item-text">Lorem ipsum dolor sit amet consectetur adipiscing elit metus pellentesque, blandit per eu aliquet nascetur.</p>                                
                             </div>
-                            <p class="benefits__item-number">05</p>
+                            <p class="benefits__item-number benefits__item-number--order-low">05</p>
                         </div>
 
                         <div class="benefits__item">
@@ -140,7 +143,7 @@
                                 <h3 class="benefits__item-title">Made with love</h3>
                                 <p class="benefits__item-text">Lorem ipsum dolor sit amet consectetur adipiscing elit metus pellentesque, blandit per eu aliquet nascetur.</p>                                
                             </div>
-                            <p class="benefits__item-number">06</p>                            
+                            <p class="benefits__item-number benefits__item-number--order-low">06</p>                            
                         </div>
                     </div> <!--benefits__list-->                    
                 </div> <!--benefits__content-->
@@ -294,9 +297,9 @@
     <footer class="footer">
         <div class="footer__container">
             <div class="footer__inner">
-                <div class="footer__inner-item">
+                <div class="footer__inner-item footer__inner-item-logo">
                     <img class="footer__logo" src="images/footer/logo.svg" alt="">
-                    <p class="footer__inner-item-text">Experience the Korean gastronomy with Susans Table at the comfort of your home.</p>
+                    <p class="footer__inner-item-text footer__call-to-action">Experience the Korean gastronomy with Susans Table at the comfort of your home.</p>
                     <div class="footer__socials-list">
                         <button class="footer__socials-item">
                             <img class="footer__socials-icon" src="images/footer/instagram.svg" alt="">
@@ -314,7 +317,7 @@
                     <a class="footer__link" href="">Feedback</a>
                 </div>
 
-                <nav class="footer__inner-item">
+                <nav class="footer__inner-item footer__inner-nav">
                     <h3 class="footer__inner-item-title">Quick Links</h3>
                     <a class="footer__link" href="">Home</a>
                     <a class="footer__link" href="">Our Menu</a>
@@ -329,7 +332,7 @@
                     <a class="footer__link footer__link-email" href="mailto:team@icelab.com">Email: team@icelab.com</a>
                 </div>
 
-                <div class="footer__inner-item">
+                <div class="footer__inner-item footer__inner-item-subscription">
                     <h3 class="footer__inner-item-title">Get The Latest News</h3>
                     <p class="footer__inner-item-text">Subscribe now to our Tasty Newsletter!</p>
                     <form action="" class="footer__subsribtion-form">

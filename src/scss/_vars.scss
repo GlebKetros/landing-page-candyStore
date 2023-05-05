@@ -5,17 +5,3 @@ $white: #fff;
     font-family: 'Rubik', sans-serif;
     font-weight: 600;
 }
-
-
-%line-after {
-    &::after {
-        content: '';
-        display: block;
-        height: 3px;
-        width: 100px;        
-        margin: 28px auto 0;
-
-        background: #C9A74D;
-
-    }
-}
